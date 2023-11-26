@@ -64,7 +64,7 @@ spec:
     spec:
       containers:
       - name: cicd-app
-        image: mohammedsait/insurance-web-app-cicd  # Replace with your Docker image name and tag
+        image: tousifshah8827/tousifhealth  # Replace with your Docker image name and tag
         ports:
         - containerPort: 8080  # Assuming your app listens on port in Dockerfile
 EOF
